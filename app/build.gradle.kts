@@ -3,13 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.jhedrickamoguispeta2"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.jhedrickamoguispeta2"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -32,9 +30,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.activity.ktx)
     implementation(libs.appcompat)
-    implementation(libs.constraintlayout)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)

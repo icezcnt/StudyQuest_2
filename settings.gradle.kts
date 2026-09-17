@@ -22,5 +22,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Jhedrick Amoguis peta 2"
 include(":app")
