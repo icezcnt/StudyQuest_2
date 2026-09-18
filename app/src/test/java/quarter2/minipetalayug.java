@@ -8,7 +8,7 @@ public class minipetalayug {
 
         String name = "Vince Angelo R. Layug";
         int age = 17;
-        String hobby = "Playing guitar";
+        String hobby = "Playing guitar and playing video games";
         String favoriteFood = "Fried chicken";
         String goal = "My goal in right now is to graduate.\n";
 
