@@ -1,5 +1,6 @@
 package com.example.jhedrickamoguispeta2;
 
+import com.example.studyquest.R;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;

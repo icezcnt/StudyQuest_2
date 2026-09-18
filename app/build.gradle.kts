@@ -3,9 +3,8 @@ plugins {
 }
 
 android {
-    compileSdk {
-        version = release(37)
-    }
+    namespace = "com.example.studyquest"
+    compileSdk = 37
 
     defaultConfig {
         minSdk = 24
