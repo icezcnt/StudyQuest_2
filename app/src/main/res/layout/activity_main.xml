@@ -98,7 +98,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Keep up the good work!"
+                    android:text="Keep up the good work"
                     android:textColor="#E7DEFF"
                     android:textSize="13sp" />
 
