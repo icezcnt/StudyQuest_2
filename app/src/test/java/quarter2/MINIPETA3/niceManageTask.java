@@ -4,7 +4,7 @@ import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
 
-class ManageTask {
+class  ManageTask {
     public void taskMenu(Scanner scanner) {
         System.out.println("----- MANAGE TASK -----");
         System.out.println("1. View Default Task");
