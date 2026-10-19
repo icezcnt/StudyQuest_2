@@ -46,7 +46,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hi, Francis"
+                        android:text="Hi, nice"
                         android:textColor="#20243A"
                         android:textSize="19sp"
                         android:textStyle="bold" />
@@ -59,21 +59,13 @@
                         android:textSize="13sp" />
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:gravity="center"
-                    android:text="♧"
-                    android:textColor="#20243A"
-                    android:textSize="25sp" />
-
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="#4F2DBD"
+                android:background="#0000FF"
                 android:gravity="center_vertical"
                 android:orientation="vertical"
                 android:padding="22dp">
@@ -90,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="320"
+                    android:text="67"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp"
                     android:textStyle="bold" />
@@ -98,7 +90,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Keep up the good wor"
+                    android:text="Keep up the good work!"
                     android:textColor="#E7DEFF"
                     android:textSize="13sp" />
 
@@ -148,7 +140,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Math Worksheet"
+                            android:text="Research Worksheet"
                             android:textColor="#20243A"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -165,7 +157,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+50 pts"
+                        android:text="+20 pts"
                         android:textColor="#20243A"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -219,7 +211,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Science Report"
+                            android:text="Comprog Task"
                             android:textColor="#20243A"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -236,7 +228,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+70 pts"
+                        android:text="+18 pts"
                         android:textColor="#20243A"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -307,7 +299,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+60 pts"
+                        android:text="+27 pts"
                         android:textColor="#20243A"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -327,7 +319,6 @@
 
             </LinearLayout>
 
-
             <Button
                 android:id="@+id/btnUpload"
                 android:layout_width="match_parent"
@@ -339,6 +330,13 @@
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▤"
+                android:textColor="#8189A3"
+                android:textSize="23sp" />
 
         </LinearLayout>
     </ScrollView>
@@ -357,22 +355,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⌂"
-                android:textColor="#4F2DBD"
-                android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Home"
-                android:textColor="#4F2DBD"
-                android:textSize="11sp" />
-        </LinearLayout>
+            android:orientation="vertical"/>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -381,64 +364,28 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="▤"
-                android:textColor="#8189A3"
-                android:textSize="23sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tasks"
-                android:textColor="#8189A3"
-                android:textSize="11sp" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tasks"
+            android:textColor="#8189A3"
+            android:textSize="11sp" />
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="☆"
-                android:textColor="#8189A3"
-                android:textSize="23sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Points"
-                android:textColor="#8189A3"
-                android:textSize="11sp" />
-        </LinearLayout>
+            android:orientation="vertical"/>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="♙"
-                android:textColor="#8189A3"
-                android:textSize="23sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textColor="#8189A3"
-                android:textSize="11sp" />
-        </LinearLayout>
+            android:orientation="vertical"/>
 
     </LinearLayout>
 
