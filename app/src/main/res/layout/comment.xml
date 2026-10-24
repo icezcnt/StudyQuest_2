@@ -153,7 +153,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Hello Nice, Welcome to Study Quest!"
+                android:text="Hello Student, Welcome to Study Quest!"
                 android:textColor="#20243A"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -199,11 +199,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#F2F3F8"
                     android:padding="12dp"
-                    android:text="Nice: Welcome everyone!"
+                    android:text="Student: Welcome everyone!"
                     android:textColor="#20243A"
-                    android:textSize="14sp"
-                    android:background="#F2F3F8" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -252,56 +252,6 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:background="#FFFFFF"
-        android:elevation="8dp">
-
-        <Button
-            android:id="@+id/navHome"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:minWidth="0dp"
-            android:text="⌂\nHome"
-            android:textAllCaps="false"
-            android:textSize="11sp"
-            android:textColor="#777F99"
-            android:backgroundTint="#FFFFFF" />
-
-        <Button
-            android:id="@+id/navSubjects"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:minWidth="0dp"
-            android:text="▤\nSubjects"
-            android:textAllCaps="false"
-            android:textSize="11sp"
-            android:textColor="#1800FF"
-            android:backgroundTint="#FFFFFF" />
-
-        <Button
-            android:id="@+id/navMessages"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:minWidth="0dp"
-            android:text="✉\nMessages"
-            android:textAllCaps="false"
-            android:textSize="11sp"
-            android:textColor="#777F99"
-            android:backgroundTint="#FFFFFF" />
-
-        <Button
-            android:id="@+id/navProfile"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:minWidth="0dp"
-            android:text="☺\nProfile"
-            android:textAllCaps="false"
-            android:textSize="11sp"
-            android:textColor="#777F99"
-            android:backgroundTint="#FFFFFF" />
-
-    </LinearLayout>
+        android:elevation="8dp"/>
 
 </LinearLayout>

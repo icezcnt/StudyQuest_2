@@ -27,15 +27,6 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="20dp">
 
-                <TextView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:background="#E8E0FF"
-                    android:gravity="center"
-                    android:text="♙"
-                    android:textColor="#4F2DBD"
-                    android:textSize="27sp" />
-
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
