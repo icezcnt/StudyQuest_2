@@ -7,18 +7,6 @@
     android:layout_height="match_parent"
     android:background="#263d80">
 
-    <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="380dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="99dp"
-        android:background="#113989"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
         android:layout_width="234dp"
@@ -31,12 +19,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etRegisterUser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="REGISTER USERNAME"
             android:background="@color/white"
-            android:textStyle="italic"
-            android:paddingLeft="10dp"/>
+            android:hint="REGISTER USERNAME"
+            android:paddingLeft="10dp"
+            android:textStyle="italic" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,6 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etRegisterPass"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
@@ -102,16 +92,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvAlreadyHaveAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
-        android:layout_marginEnd="89dp"
-        android:layout_marginBottom="33dp"
-        android:text="Already have an account?"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Already have an account? Log In"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/Register"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

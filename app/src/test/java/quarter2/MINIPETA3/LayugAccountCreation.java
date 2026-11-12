@@ -1,8 +1,19 @@
 package quarter2.MINIPETA3;
 
+import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
+public class LayugAccountCreation {
+    @Test
+    public void testAccountCreation() {
+        Layugminipeta3pt3 manager = new Layugminipeta3pt3();
+        manager.registerUser("admin", "admin123");
+        manager.loginUser("admin", "admin123");
+    }
+}
+
 
  class Layugminipeta3pt1 {
     public static void main(String[] args) {

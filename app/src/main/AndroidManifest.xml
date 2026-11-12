@@ -10,14 +10,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyQuest">
+
         <activity
-            android:name="com.example.jhedrickamoguispeta2.MainActivity"
+            android:name="com.example.jhedrickamoguispeta2.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.jhedrickamoguispeta2.AccountCreationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.jhedrickamoguispeta2.ManageTaskActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.jhedrickamoguispeta2.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.studyquest.comment2ndscreen"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
