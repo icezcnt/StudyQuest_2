@@ -3,22 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0B132B"
-    android:padding="24dp"
-    tools:context=".LoginActivity">
+    android:padding="24dp">
 
     <!-- Top Gamified Avatar / Logo -->
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="90dp"
-        android:layout_height="26dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="646dp" />
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardAvatar"
         android:layout_width="80dp"
@@ -173,6 +164,7 @@
 
     <!-- Footer: Sign Up Option & Guest Play -->
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
