@@ -193,7 +193,9 @@
                 android:text="Create Account"
                 android:textColor="#FACC15"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"/>
         </LinearLayout>
 
     </LinearLayout>

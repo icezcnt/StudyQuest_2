@@ -26,22 +26,8 @@
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.example.jhedrickamoguispeta2.LoginActivity"
-            android:exported="true">
-        </activity>
-
-        <activity
-            android:name="com.example.jhedrickamoguispeta2.AccountCreationActivity"
-            android:exported="false" />
-
-        <activity
-            android:name="com.example.jhedrickamoguispeta2.ManageTaskActivity"
-            android:exported="false" />
-
-        <activity
-            android:name="com.example.jhedrickamoguispeta2.MainActivity"
-            android:exported="false" />
-
+            android:name=".Accountcreation"
+            android:exported="false"/>
 
     </application>
 
